@@ -1,0 +1,113 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+}
+
+.App {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  color: #007bff;
+  margin-bottom: 30px; /* Increased margin for more space */
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.card {
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px; /* Increased bottom margin */
+  padding: 20px; /* Added padding for internal spacing */
+  text-align: center; /* Center content in the card */
+}
+
+.card-title {
+  color: #343a40;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.form-control {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 10px;
+  transition: border-color 0.3s;
+  margin-bottom: 15px; /* Add bottom margin for spacing between fields */
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.btn {
+  border-radius: 4px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-top: 10px; /* Added margin to buttons */
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.list-group-item {
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  margin-bottom: 15px; /* Increased bottom margin for list items */
+  background-color: #f8f9fa;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: center; /* Center items in the list */
+  padding: 10px; /* Added padding for internal spacing */
+}
+
+.list-group-item:hover {
+  background-color: #e9ecef;
+}
+
+.list-group-item strong {
+  color: #007bff;
+}
